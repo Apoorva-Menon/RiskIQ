@@ -1,0 +1,11 @@
+{
+  "user_id": "user_001",
+  "risk_tolerance": "moderate",
+  "investment_horizon_years": 5,
+  "preferred_sectors": ["Technology", "Healthcare"],
+  "holdings": [
+    { "ticker": "AAPL", "quantity": 10 },
+    { "ticker": "MSFT", "quantity": 6 },
+    { "ticker": "NVDA", "quantity": 4 }
+  ]
+}
