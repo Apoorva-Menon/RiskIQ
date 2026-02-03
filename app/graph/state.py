@@ -5,7 +5,9 @@ from datetime import datetime
 class UserProfile(BaseModel):
     user_id: str
     risk_tolerance: Literal["conservative", "moderate", "aggressive"]
-    investment_horizon_years: Optional[int] = None
+    investment_horizon_years: Optional[int] = Field(default=None,
+                                                    gt=0,
+                                                    description="Investment horizon in years if provided, must be positive.")
     preferred_sectors: Optional[List[str]] = None
 
 class HoldingInput(BaseModel):
