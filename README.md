@@ -1,9 +1,9 @@
-##RiskIQ: Intelligent Portfolio Evaluation System
+# RiskIQ: Intelligent Portfolio Evaluation System
 
 RiskIQ is a multi-agent system for analyzing and explaining the **risk characteristics of an equity portfolio**.
 It combines **deterministic financial analytics** with **LLM-based professional reporting**, orchestrated using **LangGraph**.
 
-##Problem Statement:
+## Problem Statement:
 
 Most portfolio risk tools either:
 - expose raw metrics without interpretation, or
